@@ -1,6 +1,6 @@
 import {combineReducers, createStore, applyMiddleware} from "redux"
 import thunk from "redux-thunk"
-import appReducer from "./loginReducer";
+import appReducer from "./appReducer";
 
 let reducers = combineReducers(
     {

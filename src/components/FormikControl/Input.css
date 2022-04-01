@@ -1,0 +1,20 @@
+.form__control {
+  margin: 5px;
+}
+.form__control label {
+  display: block;
+}
+
+.control__input {
+  height: 20px;
+  border: lightgray 1px solid;
+  margin: 5px 0;
+}
+
+.error {
+  font-size: 14px;
+  color: red;
+  margin: 0 0 5px 0;
+}
+
+/*# sourceMappingURL=Input.css.map */

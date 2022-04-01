@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic|Comfortaa:400,700&subset=latin,cyrillic);
+
 /*Обнуление*/
 *{padding: 0;margin: 0;border: 0;}
 *,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
@@ -16,3 +18,47 @@ ul{
 }
 img{vertical-align: top;}
 /*--------------------*/
+
+.app__wrapper{
+  display: grid;
+  grid-template-areas: "n c";
+  grid-template-columns: 10% auto;
+  grid-template-rows: auto;
+  min-height: 100vh;
+  margin:0;
+  overflow: hidden;
+}
+.app__content{
+  grid-area: c;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 16px;
+}
+.app__form{
+  box-shadow: 0 0 100px 0.5px #6980d4;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  left: 40%;
+  margin: 5px auto;
+  padding: 40px;
+  display: inline-block;
+  button{
+    color: black;
+    min-width: 7%;
+    border: 1px solid lightgray;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 2px;
+    transition: all 200ms ease-in-out;
+    &:hover{
+      color:#6980d4;
+      border: 0.1px solid #6980d4;
+    }
+    &:active{
+      color:white;
+      background-color: #6980d4;
+      border: 0.1px solid white;
+    }
+  }
+}

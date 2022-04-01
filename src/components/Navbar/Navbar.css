@@ -1,0 +1,32 @@
+.navbar__pass, .navbar__login, .navbar__reg {
+  color: #000000;
+  position: absolute;
+  left: 10%;
+  transition: all 300ms ease-in-out;
+}
+.navbar__pass:hover, .navbar__login:hover, .navbar__reg:hover {
+  font-size: 24px;
+  color: #6980d4;
+}
+
+.app__navbar {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 22px;
+  grid-area: n;
+  justify-content: center;
+  position: relative;
+}
+
+.navbar__reg {
+  top: 35%;
+}
+
+.navbar__login {
+  top: 50%;
+}
+
+.navbar__pass {
+  top: 65%;
+}
+
+/*# sourceMappingURL=Navbar.css.map */

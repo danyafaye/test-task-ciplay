@@ -1,0 +1,16 @@
+.form__control{
+  margin: 5px;
+  label{
+    display:block;
+  }
+}
+.control__input{
+  height: 20px;
+  border: lightgray 1px solid;
+  margin: 5px 0;
+}
+.error{
+  font-size:14px;
+  color: red;
+  margin: 0 0 5px 0;
+}

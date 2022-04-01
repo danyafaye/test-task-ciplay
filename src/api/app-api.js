@@ -7,7 +7,7 @@ export const appApi = {
     postRegUser (email, pass) {
         return instance.post('/users', {email,pass}).then(res=>res.data)
     },
-    putNewPass(id, pass){
-        return instance.put(`/users/${id}`, {pass}).then(res=>res.data)
+    putNewPass(id, email, pass){
+        return instance.put(`/users/${id}`, {email,pass}).then(res=>res.data)
     }
 }
